@@ -1,0 +1,157 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container {
+  background-color: #000000;
+}
+
+h2,
+h3 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #fe0390;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  color: #dcff00;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #dcff00;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+  list-style: none;
+}
+
+.right-side {
+  display: flex;
+  padding-right: 100px;
+  font-size: 18px;
+}
+p {
+  font-size: 18px;
+  color: #fe0390;
+}
+
+.description {
+  display: flex;
+  padding: 50px 0;
+  justify-content: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+}
+button.more,
+.join {
+  background: #000000;
+  color: #fe0390;
+  width: 100px;
+  height: 25px;
+  font-weight: bold;
+  border: none;
+  background: #dcff00;
+}
+
+#imageGIF {
+  height: 300px;
+  width: 300px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.info-title {
+  margin-top: 30px;
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  border: 2px solid #fe0390;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  height: 100px;
+  width: 100px;
+}
+.card-container {
+  max-width: 200px;
+}
+.verse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #898888;
+  padding: 50px;
+  margin: 20px 0 20px 0;
+}
+.verse-text {
+  font-style: italic;
+  color: #dcff00;
+  max-width: 400px;
+  font-weight: lighter;
+}
+.verse-place {
+  font-weight: bold;
+  color: #dcff00;
+
+  padding-left: 200px;
+}
+.join-us {
+  display: flex;
+  background-color: #000000;
+  padding: 50px;
+  margin: 50px 150px 50px 150px;
+  border-radius: 7px;
+}
+h3 {
+  font-size: 40px;
+}
+.join-us-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: #fe0390;
+  font-weight: lighter;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+.footer-container {
+  color: #fe0390;
+  padding: 30px;
+}
